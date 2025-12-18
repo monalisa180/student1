@@ -64,3 +64,33 @@ CREATE TABLE users (
     email VARCHAR(100),
     password VARCHAR(255)
 );
+
+TASK 3:– Responsive UI & Dashboard
+📖 Project Overview
+
+Task 3 focuses on improving the user interface of the web application by making it responsive, professional, and mobile-friendly.
+A dashboard with sidebar navigation is implemented using Bootstrap 5, integrated with the existing authentication system from Task 2.
+
+🎯 Objectives
+
+Create a professional user dashboard
+
+Add navigation (sidebar)
+
+Make the UI responsive for mobile, tablet, and desktop
+
+Display user profile details
+
+Improve overall UI/UX
+
+🛠️ Technologies Used
+
+Frontend: HTML, CSS, Bootstrap 5
+
+Backend: PHP
+
+Database: MySQL
+
+Authentication: PHP Sessions
+
+Version Control: Git & GitHub
