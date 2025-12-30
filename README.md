@@ -52,10 +52,9 @@ Implement secure login and logout functionality using PHP and sessions.
 - Redirect to login page after logout
 
 ## Screenshots
-![Register Page](screenshot/task2/register.png)
-![Register-success Page](screenshot/task2/register-success.png)
-![Login Page](screenshot/task2/login.png)
-![Dashboard After Login](screenshot/task2/dashboard.png)
+![Register Page](Screenshot/task-2/register.png)
+![Login Page](Screenshot/task-2/login.png)
+![Dashboard After Login](Screenshot/task-2/dashboard.png)
 ![Logout Redirect](screenshot/task2/logout.png)
 
 ## Note:
