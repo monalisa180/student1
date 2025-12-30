@@ -55,7 +55,6 @@ Implement secure login and logout functionality using PHP and sessions.
 ![Register Page](Screenshot/task-2/register.png)
 ![Login Page](Screenshot/task-2/login.png)
 ![Dashboard After Login](Screenshot/task-2/dashboard.png)
-![Logout Redirect](screenshot/task2/logout.png)
 
 ## Note:
 User authentication is done with PHP sessions. Logout redirects to login page automatically.
@@ -73,9 +72,13 @@ Create a professional and mobile-friendly UI using Bootstrap or Tailwind CSS.
 - CSS improvements for better UI
 
 ## Screenshots
-![Dashboard Dekstop View](screenshot/task3/dashboard-dekstop.png)
+![Dashboard Dekstop View](Screenshot/task-3/dashboard-dekstop.png)
 \n
-![Dashboard Mobile View](screenshot/task3/dashboard-mobile.png)
+![Dashboard Mobile View](Screenshot/task-3/dashboard-mobile.png)
+![profile Dekstop View](Screenshot/task-3/profile-dekstop.png)
+\n
+![profile Dekstop View](Screenshot/task-3/profile-mobile.png)
+\n
 
 
 ## Notes
@@ -95,13 +98,13 @@ Deploy the web application on free hosting and test deployment.
 - Hosting dashboard proof
 
 ## Screenshots
-![Hosting Dashboard](screenshot/task4/hosting-dashboard.png)
-![Hosting Control Panel with File Manager](screenshot/task4/hosting-control-panel-task1.png)
-![Hosting Control Panel with File Manager](screenshot/task4/hosting-control-panel-task2.png)
-![Database Import student table](screenshot/task4/database-import-student.png)
-![Database Import user table](screenshot/task4/database-import-user.png)
-![Live Website](screenshot/task4/index.png)
-![Live Website](screenshot/task4/register.png)
+![Hosting Dashboard](Screenshot/task-4/hosting-dashboard.png)
+![Hosting Control Panel with File Manager](Screenshot/task-4/hosting-control-panel-task1.png)
+![Hosting Control Panel with File Manager](Screenshot/task4/hosting-control-panel-task2.png)
+![Database Import student table](Screenshot/task-4/student-user-connect.png)
+![Database Import user table](Screenshot/task-4/database.png)
+![Live Website](Screenshot/task-4/index.png)
+![Live Website](Screenshot/task-4/register.png)
 
 ## Live Website
 task 1[Click here to open the live website](https://student-crud.infinityfreeapp.com/task1/index.php) 
