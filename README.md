@@ -107,8 +107,8 @@ Deploy the web application on free hosting and test deployment.
 ![Live Website](Screenshot/task-4/register.png)
 
 ## Live Website
-task 1[Click here to open the live website](https://student-crud.infinityfreeapp.com/task1/index.php) 
-task 2[Click here to open the live website](https://student-crud.infinityfreeapp.com/task2/register.php)
+task 1[Click here to open the live website](https://monalisanayak1180.fwh.is/task1/index.php?i=2) 
+task 2[Click here to open the live website](https://monalisanayak1180.fwh.is/task2/register.php)
 
 ## Notes
 - File Manager shows uploaded project files.
