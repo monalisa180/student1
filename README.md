@@ -1,96 +1,121 @@
-  TASK 1:  Student CRUD Project
+# Internship Project  
 
-This is a simple *Student Management CRUD project* built using *PHP* and *MySQL*.  
-It demonstrates basic CRUD operations:
+---
 
-- *Create* a student  
-- *Read* student information  
-- *Update* student details  
-- *Delete* a student  
+## 📌 Project Overview
+This repository contains two completed tasks developed as part of the internship project:
+
+### 🔹 Task 1: Student Management System  
+A CRUD-based system to manage student records such as Add, View, Edit, Update, and Delete students.
+
+### 🔹 Task 2: User Authentication System  
+A secure authentication system that allows users to Register, Login, access a protected Dashboard, and Logout.
+
+### 🔹 Task 3: Responsive UI + Dashboard
+Implemented a responsive UI with a dynamic dashboard, integrated navigation bar with profile section, and styled pages for an enhanced user experience.
+
+### 🔹 Task 4: Deploy The Web App
+Project was professionally deployed to the live server,with full database import and configuration successfully executed*.
+all the tasks are developed using PHP & MySQL and tested locally using XAMPP.
+
+---
+# Task 1: Build a Basic Web Applicatin
+
+## Objective
+Implement Create, Read, Update, Delete (CRUD) operations using PHP and MySQL.
 
 ## Features
+- Add new records
+- View all records
+- edit/ Update existing records
+- Delete records
 
-- Simple and easy-to-understand PHP code  
-- MySQL database integration  
-- Basic form validation  
-- Fully functional CRUD operations  
+## Screenshots
+![Add records](screenshot/task1/index.png)
+![Edit Record](screenshot/task1/edit.png)
+![Update-before Record](screenshot/task1/update-before.png)
+![update-after Record](screenshot/task1/update-after.png)
+![After Delete Record](screenshot/task1/delete.png)
 
-## Installation
-
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/monalisa180/student1.git
-   
-TASK 2:PHP User Authentication Project
-
-This project is a *simple user authentication system* built with PHP and MySQL.  
-It allows users to *register, login, access a dashboard, and **logout* securely.  
+## Note:
+All CRUD operations have been implemented and tested on local server.
 
 ---
+# Task 2: Login & Logout
+
+## Objective
+Implement secure login and logout functionality using PHP and sessions.
 
 ## Features
+- User login authentication
+- Logout functionality with session destruction
+- Redirect to login page after logout
 
-- User Registration with *username, email, and password*
-- Passwords are *hashed using PHP password_hash()*
-- User Login with *email and password*
-- Protected Dashboard (only accessible after login)
-- Logout functionality
-- Basic validation (email existence, correct password)
-- Fully functional *PHP & MySQL project*
+## Screenshots
+![Register Page](screenshot/task2/register.png)
+![Register-success Page](screenshot/task2/register-success.png)
+![Login Page](screenshot/task2/login.png)
+![Dashboard After Login](screenshot/task2/dashboard.png)
+![Logout Redirect](screenshot/task2/logout.png)
 
----
-
-## Technologies Used
-
-- PHP 8+
-- MySQL / phpMyAdmin
-- HTML5
-- CSS (optional, can be enhanced)
+## Note:
+User authentication is done with PHP sessions. Logout redirects to login page automatically.
 
 ---
+# Task 3: Responsive UI & Dashboard
 
-## Database
+## Objective
+Create a professional and mobile-friendly UI using Bootstrap or Tailwind CSS.
 
-*Database Name:* student2 
+## Features
+- Responsive dashboard (Desktop + Mobile)
+- Navigation bar
+- Profile section
+- CSS improvements for better UI
 
-*Table Name:* users  
+## Screenshots
+![Dashboard Dekstop View](screenshot/task3/dashboard-dekstop.png)
+\n
+![Dashboard Mobile View](screenshot/task3/dashboard-mobile.png)
 
-*Table Structure:*
 
-```sql
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(100),
-    email VARCHAR(100),
-    password VARCHAR(255)
-);
+## Notes
+- Single dashboard screenshot covers navbar, profile, and CSS improvements.
+- Responsive view is tested on mobile view (Chrome Inspect).
 
-TASK 3:– Responsive UI & Dashboard
-📖 Project Overview
+---
+# Task 4: Deploy the Web Application
 
-Task 3 focuses on improving the user interface of the web application by making it responsive, professional, and mobile-friendly.
-A dashboard with sidebar navigation is implemented using Bootstrap 5, integrated with the existing authentication system from Task 2.
+## Objective
+Deploy the web application on free hosting and test deployment.
 
-🎯 Objectives
+## Features
+- Deployed using InfinityFree (or 000webhost)
+- Database exported & imported using phpMyAdmin
+- Live website link
+- Hosting dashboard proof
 
-Create a professional user dashboard
+## Screenshots
+![Hosting Dashboard](screenshot/task4/hosting-dashboard.png)
+![Hosting Control Panel with File Manager](screenshot/task4/hosting-control-panel-task1.png)
+![Hosting Control Panel with File Manager](screenshot/task4/hosting-control-panel-task2.png)
+![Database Import student table](screenshot/task4/database-import-student.png)
+![Database Import user table](screenshot/task4/database-import-user.png)
+![Live Website](screenshot/task4/index.png)
+![Live Website](screenshot/task4/register.png)
 
-Add navigation (sidebar)
+## Live Website
+task 1[Click here to open the live website](https://student-crud.infinityfreeapp.com/task1/index.php) 
+task 2[Click here to open the live website](https://student-crud.infinityfreeapp.com/task2/register.php)
 
-Make the UI responsive for mobile, tablet, and desktop
+## Notes
+- File Manager shows uploaded project files.
+- Database tables imported successfully.
+- Dashboard and CRUD functionality works on live site.
 
-Display user profile details
+🛑Chrome may show a “Dangerous / Not Secure” warning when opening this project.
+This is a browser alert only. The project is completely safe and created for educational purposes.
 
-Improve overall UI/UX
-
-🛠️ Technologies Used
-
-Frontend: HTML, CSS, Bootstrap 5
-
-Backend: PHP
-
-Database: MySQL
-
-Authentication: PHP Sessions
-
-Version Control: Git & GitHub
+This task is dependent on other modules.
+For avoiding code duplication and dependency issues,
+the complete integrated source
